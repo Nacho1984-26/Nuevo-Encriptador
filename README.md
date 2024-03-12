@@ -1,3 +1,3 @@
 # Nuevo-Encriptador
 
-Estado: subiendo archivo
+Estado: subido a github
