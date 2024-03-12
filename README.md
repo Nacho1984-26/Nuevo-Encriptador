@@ -1,3 +1,3 @@
 # Nuevo-Encriptador
 
-Estado: subido a github
+Estado: Proyecto publicado
