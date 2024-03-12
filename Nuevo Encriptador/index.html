@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nuevo encriptador</title>
+</head>
+<body>
+    <img class="logo" src="/Imágenes/Logo2.jpg">
+    <section class="contenedor">
+        <div class="sec1">
+        <div class="texto-iconos">
+            <textarea class="campo-texto" id="text-area" placeholder="Zona de encriptado"></textarea>
+            <img class="tijera" src="/Imágenes/scissors.svg" onclick="cortar()">
+        </div>
+           
+            <img class="alerta" src="/Imágenes/Alerta.png">
+                <div class="botones">
+                    <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button> 
+                </div>        
+        </div>
+        
+        <div class="sec2">
+            <textarea class="campo-mensaje" id="Mensaje" type="text"></textarea>
+            <img class="hacker" src="/Imágenes/hacker-1.jpg">
+            <button class="copiado" id="copiar" onclick="copy()">Copiar</button>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="copyright">&#169; Copyright Nacho's Proyect - 2024 -</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

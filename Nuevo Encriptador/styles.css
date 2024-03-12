@@ -1,0 +1,297 @@
+body{
+    background: #5a5858;
+}
+
+.logo{
+    width: 150px;
+    height: 50px;
+    border-radius: 2px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+
+.copiar{
+    display: inline;
+    margin-top: 45px;
+    margin-left: 40px;
+    background-image: url ("/Imágenes/copy (1).svg");
+    background-color: #8f8989;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.copiar:active{
+    opacity: 30%;
+    transition: 0.2s all;
+}
+
+.tijera{
+    display: inline;
+    margin-top: 45px;
+    background-image: url ("/Imágenes/copy (1).svg");
+    background-color: #8f8989;
+    cursor: pointer;
+    margin-left: 45px;
+    border-radius: 5px;
+}
+
+.tijera:active{
+    opacity: 30%;
+    transition: 0s all;
+}
+
+.texto-iconos{
+  display: flex;
+  align-items:start;
+}
+
+.sec1{
+    background: linear-gradient(#908b8b, #5a5858);
+    box-shadow: 10px 10px 20px 10px #000000;
+    width: 500px;
+    height:500px;
+    display: block;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.campo-texto{
+    display: block;
+    width: 250px;
+    height: 80px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    background:none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+::placeholder{
+    color: #534e4e;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.alerta{
+    display: flex;
+    margin-top: 180px;
+    margin-left: 10px;
+    width: 200px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btnEncriptar{
+    background: rgba(13, 64, 126, 0.56);
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.btnEncriptar:hover{
+    background: rgba(54, 122, 206, 0.56);
+    transition: 0.5s all;
+}
+
+.btnEncriptar:active{
+    background: rgba(127, 183, 252, 0.56);
+    transition: 0s all;
+}
+
+.btnDesencriptar{
+    background: #6c6868;
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 10px;
+    border-width: 2px;
+    border:none;
+    cursor: pointer;
+}
+
+.btnDesencriptar:hover{
+    background: #7e7d7d;
+    transition: 0.5s all;
+}
+
+.btnDesencriptar:active{
+    background: #a9a8a8;
+    transition: 0s all;
+}
+
+.sec2{
+    background: linear-gradient(#4e4d4d, rgba(10, 56, 113, 0.64));
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px 10px #000000;
+    margin-top: 35px;
+}
+
+.campo-mensaje{
+    display: block;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 95px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+}
+
+.hacker{
+    width: 280px;
+    height: 330px;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 150px;
+    box-shadow: 10px 10px 20px 10px #000000;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.copiado{
+    display: flex;
+    background: none;
+    border: none;
+    margin: 20px 190px 0px;
+    cursor: pointer; 
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.copiado:hover{
+    font-size: 25px;
+    transition: 0.5s all;
+}
+
+.copiado:active{
+    color: rgb(251, 253, 251);
+    transition: 0s;
+}
+
+
+.copyright{
+    display: flex;
+    margin: 25px 0px 0px 550px; 
+}
+
+@media screen and (max-width:850px){
+
+    .contenedor{
+        display: block;
+    }
+
+    .sec1{
+        width: 650px;
+    }
+
+    .campo-texto{
+        width: 350px;
+    }
+
+    .sec2{
+        width: 650px;
+    }
+
+    .campo-mensaje{
+        margin-left: 185px;
+    }
+
+    .hacker{
+        margin: 10px 180px;
+    }
+    
+    .copiado{
+        margin: 30px 280px;
+    }
+
+    .copyright{
+        margin-left: 165px;
+    }
+}
+
+@media screen and (max-width:700px){
+
+    .contenedor{
+        display: block;
+    }
+
+    .sec1{
+        width: 500px;
+    }
+
+    .campo-texto{
+        width: 280px;
+    }
+
+    .sec2{
+        width: 500px;
+    }
+
+    .campo-mensaje{
+        margin-left: 100px;
+    }
+
+    .hacker{
+        margin: 10px 100px;
+    }
+    
+    .copiado{
+        margin: 30px 205px;
+    }
+
+    .copyright{
+        margin-left: 145px;
+    }
+
+}
+
+@media screen and (max-width:500px){
+
+    .contenedor{
+        display: block;
+    }
+
+    .sec1{
+        width: 380px;
+    }
+
+    .tijera{
+        margin-left: 2px;
+    }
+
+    .sec2{
+        width: 380px;
+    }
+
+    .hacker{
+        margin: 10px 45px;
+    }
+    
+    .copiado{
+        margin: 30px 150px;
+    }
+    
+    .copyright{
+        margin-left: 65px;
+    }
+   
+}
